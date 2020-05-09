@@ -1,5 +1,7 @@
 package com.safe.web1.utils;
 
+import org.apache.tomcat.util.codec.binary.Base64;
+
 import java.io.ByteArrayOutputStream;
 import java.security.KeyFactory;
 import java.security.KeyPair;
@@ -11,7 +13,6 @@ import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 import javax.crypto.Cipher;
 // import org.apache.commons.codec.binary.Base64;
-import org.apache.tomcat.util.codec.binary.Base64;
 
 public class TestRSA {
 
