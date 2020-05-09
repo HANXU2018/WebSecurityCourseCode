@@ -1,0 +1,60 @@
+文件夹 PATH 列表
+卷序列号为 2C79-0750
+C:.
+├─.idea
+│  ├─codeStyles
+│  ├─inspectionProfiles
+│  └─libraries
+├─.mvn
+│  └─wrapper
+├─src
+│  ├─main
+│  │  ├─java
+│  │  │  └─com
+│  │  │      └─safe
+│  │  │          └─web1
+│  │  │              ├─Controller
+│  │  │              ├─pojo
+│  │  │              └─utils
+│  │  └─resources
+│  │      ├─static
+│  │      └─templates
+│  └─test
+│      └─java
+│          └─com
+│              └─safe
+│                  └─web1
+├─target
+│  ├─classes
+│  │  └─com
+│  │      └─safe
+│  │          └─web1
+│  │              ├─Controller
+│  │              ├─pojo
+│  │              └─utils
+│  ├─generated-sources
+│  │  └─annotations
+│  ├─generated-test-sources
+│  │  └─test-annotations
+│  └─test-classes
+│      └─com
+│          └─safe
+│              └─web1
+└─web1front
+    └─safeDamo
+        ├─.idea
+        │  ├─codeStyles
+        │  └─inspectionProfiles
+        ├─build
+        ├─config
+        ├─src
+        │  ├─assets
+        │  ├─components
+        │  └─router
+        ├─static
+        └─test
+            ├─e2e
+            │  ├─custom-assertions
+            │  └─specs
+            └─unit
+                └─specs
