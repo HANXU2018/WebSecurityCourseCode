@@ -1,0 +1,12 @@
+D:\zdy\sqlserver\sqlserver\bin\sqlserver.dll
+D:\zdy\sqlserver\sqlserver\bin\sqlserver.pdb
+D:\zdy\sqlserver\sqlserver\obj\Debug\sqlserver.dll
+D:\zdy\sqlserver\sqlserver\obj\Debug\sqlserver.pdb
+D:\zdy\sqlserver\sqlserver\bin\sqlserver.dll.config
+D:\zdy\sqlserver\sqlserver\obj\Debug\sqlserver.csprojResolveAssemblyReference.cache
+D:\工作\教学\Web应用程序安全设计\sqlserver-Session\sqlserver\sqlserver\bin\sqlserver.dll.config
+D:\工作\教学\Web应用程序安全设计\sqlserver-Session\sqlserver\sqlserver\bin\sqlserver.dll
+D:\工作\教学\Web应用程序安全设计\sqlserver-Session\sqlserver\sqlserver\bin\sqlserver.pdb
+D:\工作\教学\Web应用程序安全设计\sqlserver-Session\sqlserver\sqlserver\obj\Debug\sqlserver.csprojResolveAssemblyReference.cache
+D:\工作\教学\Web应用程序安全设计\sqlserver-Session\sqlserver\sqlserver\obj\Debug\sqlserver.dll
+D:\工作\教学\Web应用程序安全设计\sqlserver-Session\sqlserver\sqlserver\obj\Debug\sqlserver.pdb
