@@ -27,7 +27,7 @@ public class LoginController {
         if (null == user) {
             return new Result(400);
         } else {
-            session.setAttribute("user", user);
+             session.setAttribute("user", user);
             return new Result(200);
         }
     }
