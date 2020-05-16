@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.HtmlUtils;
 
-
+import javax.servlet.http.HttpSession;
 import java.util.Objects;
 @Controller
 public class LoginController {
@@ -19,7 +19,7 @@ public class LoginController {
     @CrossOrigin
     @PostMapping(value = "/api/login")
     @ResponseBody
-    public Result login(@RequestBody User requestUser) {
+    public Result login(@RequestBody User requestUser, HttpSession session) {
         String username = requestUser.getUsername();
         username = HtmlUtils.htmlEscape(username);
 
@@ -27,6 +27,7 @@ public class LoginController {
         if (null == user) {
             return new Result(400);
         } else {
+            session.setAttribute("user", user);
             return new Result(200);
         }
     }
