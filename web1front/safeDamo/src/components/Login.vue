@@ -43,12 +43,12 @@ export default {
         .then(successResponse => {
           if (successResponse.data.code === 200) {
             // var data = this.loginForm
+
+            this.$message.success(_this.loginForm.username + '登录成功')
             console.log(successResponse)
-            _this.$store.commit('login', _this.loginForm)
-            var path = this.$route.query.redirect
-            this.$router.replace({path: path === '/' || path === undefined ? '/index' : path})
+            this.$router.replace({path: '/index'})
           } else {
-            this.$message.error(successResponse.data.code + ':用户名或密码错误登录失败')
+            this.$message.error(successResponse.data.code + _this.loginForm.username + ':用户名或密码错误登录失败')
           }
         })
         .catch(failResponse => {
